@@ -1,3 +1,7 @@
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import {
   FaCalendarAlt,
   FaMapMarkerAlt,
@@ -9,19 +13,33 @@ import {
 import { MdLocationOn, MdDateRange, MdAccessTime } from "react-icons/md";
 
 const Jadwal = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <section className="relative py-16 overflow-hidden bg-gradient-to-b from-black via-gray-900 to-black">
       <div className="container relative mx-auto px-4 py-10 text-white z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-3 font-head">Jadwal Acara</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mx-auto rounded-full"></div>
-          <p className="mt-4 text-gray-300 max-w-xl mx-auto font-utama">
+          <h2 className="text-4xl font-bold mb-3 font-head" data-aos="fade-up">
+            Jadwal Acara
+          </h2>
+          <div
+            className="w-24 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mx-auto rounded-full"
+            data-aos="fade-up"
+          ></div>
+          <p
+            className="mt-4 text-gray-300 max-w-xl mx-auto font-utama"
+            data-aos="fade-up"
+          >
             Kami mengundang Anda untuk berbagi momen bahagia dalam perayaan
             cinta kami
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl transform transition-all duration-500 hover:scale-105 hover:shadow-2xl group border border-white/20 font-utama">
+          <div
+            className="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl transform transition-all duration-500 hover:scale-105 hover:shadow-2xl group border border-white/20 font-utama"
+            data-aos="fade-up"
+          >
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-pink-500/80 to-purple-600/80 opacity-10 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative p-6 text-white">
@@ -94,7 +112,10 @@ const Jadwal = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl transform transition-all duration-500 hover:scale-105 hover:shadow-2xl group border border-white/20 font-utama">
+          <div
+            className="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl transform transition-all duration-500 hover:scale-105 hover:shadow-2xl group border border-white/20 font-utama"
+            data-aos="fade-up"
+          >
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/80 to-purple-600/80 opacity-10 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative p-6 text-white">
@@ -175,18 +196,25 @@ const Jadwal = () => {
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          data-aos="fade-up"
         ></iframe>
 
         <div className="mt-16 text-center font-utama">
-          <div className="inline-flex items-center justify-center">
+          <div
+            className="inline-flex items-center justify-center"
+            data-aos="fade-up"
+          >
             <div className="h-px w-12 bg-white/30"></div>
             <FaHeart className="mx-4 text-pink-500 animate-pulse" />
             <div className="h-px w-12 bg-white/30"></div>
           </div>
-          <p className="mt-6 text-white/80 italic max-w-lg mx-auto">
+          <p
+            className="mt-6 text-white/80 italic max-w-lg mx-auto"
+            data-aos="fade-up"
+          >
             "Kehadiran dan doa restu Anda merupakan hadiah terindah bagi kami"
           </p>
-          <div className="mt-8">
+          <div className="mt-8" data-aos="fade-up">
             <button className="px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full transform transition-all duration-300 hover:scale-105 hover:shadow-lg flex items-center mx-auto">
               <FaCalendarAlt className="mr-2" /> Tambahkan ke Kalender
             </button>

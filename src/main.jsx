@@ -10,6 +10,7 @@ import Poto from "./komponen/potopoto";
 import Kehadiran from "./komponen/kehadiran";
 import Komentar from "./komponen/komentar";
 import Penutup from "./komponen/penutup";
+import Rekening from "./komponen/rekening";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")).render(
     <Kehadiran />
     <Komentar />
     <Penutup />
+    <Rekening />
     <Gallery />
   </StrictMode>
 );

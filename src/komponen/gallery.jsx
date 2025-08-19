@@ -7,7 +7,7 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="py-5 bg-gradient-to-t from-gray-50 to-stone-100"
+      className="pt-5 pb-28 bg-gradient-to-t from-gray-50 to-stone-100"
     >
       <div className="container mx-auto px-4">
         {/* taruh gallery disini */}

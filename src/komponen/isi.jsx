@@ -14,7 +14,7 @@ const Isi = () => {
   return (
     <section
       id="isi"
-      className="bg-gradient-to-b from-black via-slate-900 to-black text-white py-20 relative"
+      className="bg-gradient-to-b from-black via-slate-900 to-black text-white py-20 relative overflow-hidden"
     >
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <Particles

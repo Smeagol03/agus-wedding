@@ -9,6 +9,7 @@ import Jadwal from "./komponen/jadwal";
 import Poto from "./komponen/potopoto";
 import Kehadiran from "./komponen/kehadiran";
 import Komentar from "./komponen/komentar";
+import Penutup from "./komponen/penutup";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -19,5 +20,6 @@ createRoot(document.getElementById("root")).render(
     <Poto />
     <Kehadiran />
     <Komentar />
+    <Penutup />
   </StrictMode>
 );

@@ -45,7 +45,7 @@ const Buka = () => {
     document.body.style.overflow = "hidden";
 
     // Membuat elemen audio
-    audioRef.current = new Audio("/");
+    audioRef.current = new Audio("/musik.mp3");
     audioRef.current.loop = true; // Mengatur musik untuk diputar berulang
 
     // Cleanup function

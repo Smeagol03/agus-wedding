@@ -358,15 +358,14 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `/mempelai/1.jpg`, text: "Bridge" },
-      { image: `/mempelai/2.jpg`, text: "Desk Setup" },
-      { image: `/mempelai/3.jpg`, text: "Waterfall" },
-      { image: `/mempelai/4.jpg`, text: "Strawberries" },
-      { image: `/mempelai/5.jpg`, text: "Deep Diving" },
-      { image: `/mempelai/6.jpg`, text: "Train Track" },
-      { image: `/mempelai/7.jpg`, text: "Santorini" },
-      { image: `/mempelai/8.jpg`, text: "Blurry Lights" },
-      { image: `/mempelai/9.jpg`, text: "New York" },
+      { image: `/agus/1.jpg`, text: "" },
+      { image: `/agus/2.jpg`, text: "" },
+      { image: `/agus/3.jpg`, text: "" },
+      { image: `/agus/4.jpg`, text: "" },
+      { image: `/agus/5.jpg`, text: "" },
+      { image: `/agus/6.jpg`, text: "" },
+      { image: `/agus/7.jpg`, text: "" },
+      { image: `/agus/8.jpg`, text: "" },
     ];
     const galleryItems = items && items.length ? items : defaultItems;
     this.mediasImages = galleryItems.concat(galleryItems);

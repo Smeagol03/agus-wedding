@@ -31,7 +31,7 @@ const FloralIcon = ({ className }) => (
 export default function Penutup() {
   return (
     // Latar belakang seksi dengan warna lembut dan padding yang cukup
-    <section className="bg-gradient-to-br from-gray-50 to-stone-100 py-20 px-4 font-serif relative overflow-hidden">
+    <section className="bg-gradient-to-b from-gray-50 to-stone-100 py-20 px-4 font-serif relative overflow-hidden">
       {/* Ikon Dekoratif sebagai latar belakang */}
       <FloralIcon className="top-10 left-10 transform rotate-45 scale-150" />
       <FloralIcon className="bottom-10 right-10 transform -rotate-45 scale-125" />

@@ -21,5 +21,6 @@ createRoot(document.getElementById("root")).render(
     <Kehadiran />
     <Komentar />
     <Penutup />
+    <Gallery />
   </StrictMode>
 );

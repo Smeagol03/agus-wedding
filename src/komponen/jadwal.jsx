@@ -74,15 +74,23 @@ const Jadwal = () => {
                         Masjid Agung
                       </p>
                       <p className="text-white/70 text-sm">
-                        Jl. Pemuda No. 123, Jakarta Pusat
+                        Jalan assifa sebelum pertigaan karang sari. / masjid
+                        karang sari. Kel suryawangi kec labuhan haji
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <button className="mt-6 w-full py-3 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-all duration-300 flex items-center justify-center group-hover:bg-white/30">
-                  <FaMapMarkerAlt className="mr-2" /> Lihat Lokasi
-                </button>
+                <a
+                  href="https://maps.app.goo.gl/XKvBoaKJwW45b1fE9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 w-full inline-block"
+                >
+                  <button className="w-full py-3 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-all duration-300 flex items-center justify-center group-hover:bg-white/30">
+                    <FaMapMarkerAlt className="mr-2" /> Lihat Lokasi
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -139,19 +147,35 @@ const Jadwal = () => {
                         Grand Ballroom Hotel Mulia
                       </p>
                       <p className="text-white/70 text-sm">
-                        Jl. Asia Afrika No. 456, Jakarta Selatan
+                        Jalan assifa sebelum pertigaan karang sari. / masjid
+                        karang sari. Kel suryawangi kec labuhan haji
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <button className="mt-6 w-full py-3 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-all duration-300 flex items-center justify-center group-hover:bg-white/30">
-                  <FaMapMarkerAlt className="mr-2" /> Lihat Lokasi
-                </button>
+                <a
+                  href="https://maps.app.goo.gl/XKvBoaKJwW45b1fE9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 w-full inline-block"
+                >
+                  <button className="w-full py-3 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-all duration-300 flex items-center justify-center group-hover:bg-white/30">
+                    <FaMapMarkerAlt className="mr-2" /> Lihat Lokasi
+                  </button>
+                </a>
               </div>
             </div>
           </div>
         </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3944.330944518572!2d116.5780776750145!3d-8.660041791387302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMzknMzYuMiJTIDExNsKwMzQnNTAuNCJF!5e0!3m2!1sen!2sid!4v1755580527496!5m2!1sen!2sid"
+          className="w-full h-64 md:h-80 rounded-lg shadow-lg mt-10"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
 
         <div className="mt-16 text-center font-utama">
           <div className="inline-flex items-center justify-center">

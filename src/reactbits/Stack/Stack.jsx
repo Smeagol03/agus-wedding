@@ -42,20 +42,7 @@ export default function Stack({
   animationConfig = { stiffness: 260, damping: 20 },
   sendToBackOnClick = false,
 }) {
-  const [cards, setCards] = useState(
-    cardsData.length
-      ? cardsData
-      : [
-          { id: 1, img: "/agus/1.jpg" },
-          { id: 2, img: "/agus/2.jpg" },
-          { id: 3, img: "/agus/3.jpg" },
-          { id: 4, img: "/agus/4.jpg" },
-          { id: 5, img: "/agus/5.jpg" },
-          { id: 6, img: "/agus/6.jpg" },
-          { id: 7, img: "/agus/7.jpg" },
-          { id: 8, img: "/agus/8.jpg" },
-        ]
-  );
+  const [cards, setCards] = useState(cardsData.length ? cardsData : []);
 
   const sendToBack = (id) => {
     setCards((prev) => {

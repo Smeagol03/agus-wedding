@@ -15,7 +15,7 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="pt-5 pb-28 bg-gradient-to-t from-gray-50 to-stone-100 overflow-hidden"
+      className="py-44 bg-gradient-to-t from-gray-50 to-stone-100 overflow-hidden"
     >
       <div className="container flex flex-col items-center justify-center px-4">
         {/* taruh gallery disini */}

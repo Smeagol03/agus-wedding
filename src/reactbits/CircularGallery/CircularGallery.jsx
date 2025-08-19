@@ -358,14 +358,14 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `/agus/1.jpg`, text: "" },
-      { image: `/agus/2.jpg`, text: "" },
-      { image: `/agus/3.jpg`, text: "" },
-      { image: `/agus/4.jpg`, text: "" },
-      { image: `/agus/5.jpg`, text: "" },
-      { image: `/agus/6.jpg`, text: "" },
-      { image: `/agus/7.jpg`, text: "" },
-      { image: `/agus/8.jpg`, text: "" },
+      { image: `/agus/1.jpg`, text: "1" },
+      { image: `/agus/2.jpg`, text: "2" },
+      { image: `/agus/3.jpg`, text: "3" },
+      { image: `/agus/4.jpg`, text: "4" },
+      { image: `/agus/5.jpg`, text: "5" },
+      { image: `/agus/6.jpg`, text: "6" },
+      { image: `/agus/7.jpg`, text: "7" },
+      { image: `/agus/8.jpg`, text: "8" },
     ];
     const galleryItems = items && items.length ? items : defaultItems;
     this.mediasImages = galleryItems.concat(galleryItems);

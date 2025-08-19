@@ -118,7 +118,7 @@ const Kehadiran = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100 flex items-center justify-center p-4 font-utama">
       {/* Kontainer form dengan bayangan dan animasi */}
-      <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md transform transition-all duration-500 hover:scale-105">
+      <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
         {/* Header Form */}
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-indigo-600">

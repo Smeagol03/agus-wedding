@@ -23,7 +23,7 @@ const Gallery = () => {
           randomRotation={true}
           sensitivity={180}
           sendToBackOnClick={false}
-          cardDimensions={{ width: 500, height: 500 }}
+          cardDimensions={{ width: 300, height: 300 }}
           cardsData={images}
         />
         <div className="text-center mt-12">

@@ -1,9 +1,6 @@
-import { useMediaQuery } from "react-responsive";
 import CircularGallery from "../reactbits/CircularGallery/CircularGallery";
 
 const Gallery = () => {
-  const isDesktop = useMediaQuery({ minWidth: 768 });
-
   return (
     <section
       id="gallery"
@@ -13,9 +10,10 @@ const Gallery = () => {
         {/* taruh gallery disini */}
         <div className="h-[400px] md:h-[500px] lg:h-[600px] relative">
           <CircularGallery
-            bend={isDesktop ? 1 : 0}
+            bend={0.5}
             textColor="#ffffff"
             borderRadius={0.05}
+            scrollEase={0.02}
           />
         </div>
         <div className="text-center mt-12">

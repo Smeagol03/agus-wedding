@@ -158,11 +158,11 @@ const Buka = () => {
           className="absolute inset-0 w-full h-full object-cover object-bottom md:object-center"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
       </div>
       <div className="absolute inset-0 flex gap-2 sm:gap-5 md:gap-[20px] flex-col content-center items-center justify-end z-10 text-white pb-14 md:pb-16 px-4 sm:px-6 md:px-8">
         <GradientText
-          colors={["#FFFFFF", "#808080", "#FFFFFF"]}
+          colors={["#f8f8f8", "#b0b0b0", "#ffffff"]}
           animationSpeed={5}
           showBorder={false}
           className="text-3xl md:text-5xl font-bold text-center font-head"

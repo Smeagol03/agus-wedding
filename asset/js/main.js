@@ -53,48 +53,48 @@ const x = setInterval(function () {
   }
 }, 1000);
 // music
-// document.addEventListener("DOMContentLoaded", function () {
-//   const playButton = document.getElementById("play-and-navigate");
-//   const audio = document.getElementById("wedding-music");
-//   const heroSection = document.getElementById("hero");
+document.addEventListener("DOMContentLoaded", function () {
+  const playButton = document.getElementById("play-and-navigate");
+  const audio = document.getElementById("wedding-music");
+  const heroSection = document.getElementById("hero");
 
-//   window.scrollTo(0, 0);
+  window.scrollTo(0, 0);
 
-//   function disableScroll(event) {
-//     event.preventDefault();
-//   }
+  function disableScroll(event) {
+    event.preventDefault();
+  }
 
-//   window.addEventListener("scroll", disableScroll);
-//   window.addEventListener("wheel", disableScroll, { passive: false });
-//   window.addEventListener("touchmove", disableScroll, { passive: false });
-//   window.addEventListener("keydown", function (event) {
-//     if (
-//       ["ArrowUp", "ArrowDown", "Space", "PageUp", "PageDown"].includes(
-//         event.key
-//       )
-//     ) {
-//       event.preventDefault();
-//     }
-//   });
+  window.addEventListener("scroll", disableScroll);
+  window.addEventListener("wheel", disableScroll, { passive: false });
+  window.addEventListener("touchmove", disableScroll, { passive: false });
+  window.addEventListener("keydown", function (event) {
+    if (
+      ["ArrowUp", "ArrowDown", "Space", "PageUp", "PageDown"].includes(
+        event.key
+      )
+    ) {
+      event.preventDefault();
+    }
+  });
 
-//   playButton.addEventListener("click", function (event) {
-//     event.preventDefault();
+  playButton.addEventListener("click", function (event) {
+    event.preventDefault();
 
-//     window.removeEventListener("scroll", disableScroll);
-//     window.removeEventListener("wheel", disableScroll);
-//     window.removeEventListener("touchmove", disableScroll);
+    window.removeEventListener("scroll", disableScroll);
+    window.removeEventListener("wheel", disableScroll);
+    window.removeEventListener("touchmove", disableScroll);
 
-//     if (audio.paused) {
-//       audio
-//         .play()
-//         .catch((error) => console.error("Gagal memutar musik:", error));
-//     }
+    if (audio.paused) {
+      audio
+        .play()
+        .catch((error) => console.error("Gagal memutar musik:", error));
+    }
 
-//     if (heroSection) {
-//       heroSection.scrollIntoView({ behavior: "smooth" });
-//     }
-//   });
-// });
+    if (heroSection) {
+      heroSection.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+});
 
 // My Form
 window.addEventListener("load", function () {
